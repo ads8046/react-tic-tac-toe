@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(2, 2, 56);
+}
+
+#game-header {
+    text-align: center;
+    font-size: 3em;
+    color: yellow;
+}
+
+#board {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.board-row {
+    position: static;
+    height: 100px;
+}
+
+.status {
+    margin-bottom: 1.5em;
+    color: aquamarine;
+    font-size: 3em;
+}
+
+.square-button {
+    background: aquamarine;
+    border: 2px solid orange;
+    float: left;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: midnightblue;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+
+
